@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(218, 210, 210);
+
+}
+
+h1{
+    text-align: center;
+
+}
+
+#for-perg{
+    margin-top: 5vh;
+}
+
+.btn-perguntar{
+    font-size: larger;
+}
+
+h1.titulo{
+    color: rgb(255, 255, 255);
+}
+
+#icone-pag{
+    font-size: 25px;
+}

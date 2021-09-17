@@ -1,0 +1,31 @@
+<%- include('partials/header.ejs') %>
+
+<body>
+<%- include('partials/nav.ejs') %>
+<div class="container">
+    <div class="card" id="for-perg">
+        <div class="card-header">
+            <h1>
+                Faça sua pergunta
+            </h1>
+        </div>
+
+    <div class="card-body">
+        <form method="POST" action="/salvarpergunta">
+            <img class="icon" src="css/icons/question-square-fill.svg">
+            <label>  Titulo da Pergunta</label>
+            <input type="text" placeholder="Titulo" class="form-control" name="titulo">
+            
+            <br>
+    
+            <img class="icon" src="css/icons/pen-fill.svg">
+                <label>Sua pergunta</label>
+            <textarea placeholder="Descreve sua pergunta aqui" class="form-control" name="descricao"></textarea>
+            <br>
+            <button class="btn btn-primary btn-block" >Perguntar</button>
+        </form>
+    </div>
+    </div>
+</div>
+</body>
+<%- include('partials/footer.ejs') %>)
